@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Notícia - Portal de Notícias Local</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+</head>
+<body>
+
+  <header class="bg-dark text-white py-4">
+    <div class="container d-flex flex-column flex-md-row justify-content-between align-items-center">
+      <h1 class="h3 mb-3 mb-md-0">PORTAL DE NOTÍCIAS LOCAL</h1>
+      <form class="d-flex" role="search">
+        <input class="form-control me-2" type="search" placeholder="Buscar..." name="search">
+        <button class="btn btn-outline-light" type="submit">Pesquisar</button>
+      </form>
+    </div>
+  </header>
+
+  <nav class="navbar navbar-expand-md navbar-dark bg-secondary">
+    <div class="container">
+      <a class="navbar-brand" href="#">Categorias</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="menu">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#">Política</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Esportes</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Cultura</a></li>
+          <li class="nav-item"><a class="nav-link" href="#">Tecnologia</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <div id="not-found" class="container text-center py-5" style="display: none;">
+    <h2 class="text-danger">Página Não Encontrada (404)</h2>
+    <p>Desculpe, a página que você está procurando não existe ou foi movida.</p>
+    <a href="index.html" class="btn btn-primary">Voltar para a Página Inicial</a>
+  </div>
+
+  <main class="container my-5">
+
+    <h1>Informações Gerais</h2>
+    <hr>
+
+    <section id="news-container">
+      <!-- Será preenchido de forma dinâmica pela função carregarDetalhes() -->
+    </section>
+
+    <h1>Fotos Vinculadas</h1>
+    <hr>
+
+    <section id="additional-pictures-container" class="row g-4 mb-5">
+
+    </section>
+
+    <div class="mt-5">
+      <a href="index.html" class="btn btn-secondary">← Voltar para a Página Inicial</a>
+    </div>
+  </main>
+
+  <footer class="bg-dark text-white text-center py-4 mt-5">
+    <p class="mb-2">Sobre | Contato | Privacidade</p>
+    <div>
+      <a href="#" class="text-white mx-2">Facebook</a>
+      <a href="#" class="text-white mx-2">Twitter</a>
+      <a href="#" class="text-white mx-2">Instagram</a>
+    </div>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/app.js"></script>
+</body>
+</html>

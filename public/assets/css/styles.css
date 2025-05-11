@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+  }
+  
+  .header {
+    background: #333;
+    color: #fff;
+    padding: 1rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .header h1 {
+    flex: 1;
+    font-size: 1.5rem;
+  }
+  
+  .search-form {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .search-form input, .search-form button {
+    padding: 0.4rem;
+  }
+  
+  .navbar {
+    background: #555;
+  }
+  
+  .navbar ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    padding: 0.5rem;
+  }
+  
+  .navbar li {
+    margin: 0.5rem 1rem;
+  }
+  
+  .navbar a {
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  .main {
+    padding: 1rem;
+  }
+  
+  .destaque {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+  
+  .destaque img {
+    width: 100%;
+    height: auto;
+    max-height: 300px;
+    object-fit: cover;
+  }
+  
+  .noticias {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1rem;
+    margin-bottom: 2rem;
+  }
+  
+  .noticia {
+    border: 1px solid #ddd;
+    padding: 1rem;
+    background-color: #fff;
+  }
+  
+  .noticia img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 0.5rem;
+  }
+  
+  .formulario {
+    margin: 2rem 0;
+    padding: 1rem;
+    background: #f5f5f5;
+    text-align: center;
+  }
+  
+  .formulario form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .formulario input {
+    margin: 0.5rem 0;
+    padding: 0.5rem;
+    width: 90%;
+    max-width: 300px;
+  }
+  
+  .formulario button {
+    padding: 0.5rem 1rem;
+  }
+  
+  .footer {
+    background: #222;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+  }
+  
+  .footer .social a {
+    color: #fff;
+    margin: 0 0.5rem;
+    text-decoration: none;
+  }
+  
+  @media (max-width: 768px) {
+    .header {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .navbar ul {
+      flex-direction: column;
+      align-items: center;
+    }
+  
+    .formulario input {
+      width: 100%;
+    }
+  }
