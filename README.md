@@ -4,10 +4,10 @@ Nessa etapa, vamos evoluir o projeto anterior e contemplar um ambiente de desenv
 
 ## Informações do trabalho
 
-- Nome:
-- Matricula:
-- Proposta de projeto escolhida:
-- Breve descrição sobre seu projeto:
+- Nome: Mateus de Freitas Macedo
+- Matricula: 884130
+- Proposta de projeto escolhida: Portal de Notícias Local
+- Breve descrição sobre seu projeto: Portal de Notícias local.
 
 **Print do teste da API com visualização do JSON**
 
